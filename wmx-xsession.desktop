@@ -6,3 +6,4 @@ TryExec=wmx
 Name=WMX
 Comment=Another window manager
 Comment[pl]=Jeszcze jeden zarządca okien
+# vi: encoding=utf-8
