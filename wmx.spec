@@ -9,6 +9,7 @@ Source0:	http://www.all-day-breakfast.com/%{name}-%{version}.tar.gz
 Patch0:		%{name}-compile_fix.patch
 Patch1:		%{name}-config.patch
 BuildRequires:	XFree86-devel
+BuildRequires:	gcc-c++
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
@@ -32,8 +33,9 @@ editing the source and recompiling the code.
 wmx jest jeszcze jednym menad¿erem okien dla X.  Oparty na kodzie wm2
 dostarcza podobnego niezwyk³ego stylu dekoracji okien; ale zamiast
 minimalnej funkcjonalno¶ci wm2, wmx oferuje wiele w³a¶ciwo¶ci bardziej
-konwencjonalnych menad¿erów okien w najbardziej uproszczonej implementacji.
-wmx nie da siê konfigurowaæ, chyba ¿e poprzez edycjê ¼róde³ i rekompilacjê.
+konwencjonalnych menad¿erów okien w najbardziej uproszczonej
+implementacji. wmx nie da siê konfigurowaæ, chyba ¿e poprzez edycjê
+¼róde³ i rekompilacjê.
 
 %prep
 %setup -q
