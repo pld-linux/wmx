@@ -7,6 +7,7 @@ License:	GPL
 Group:		X11/Window Managers
 Source0:	http://www.all-day-breakfast.com/%{name}-%{version}.tar.gz
 # Source0-md5:	d4dd5ed28b7aa103f462d4a024c7bb03
+Source1:	%{name}-xsession.desktop
 Patch0:		%{name}-compile_fix.patch
 Patch1:		%{name}-config.patch
 BuildRequires:	XFree86-devel
@@ -48,10 +49,10 @@ implementacji. wmx nie da siê konfigurowaæ, chyba ¿e poprzez edycjê
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_bindir}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/xsessions}
 
 install %{name} $RPM_BUILD_ROOT%{_bindir}
-
+install %{SOURCE1} $RPM_BUILD_ROOT%{_datadir}/xsessions/%{name}.desktop
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -59,3 +60,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README README.contrib UPDATES
 %attr(755,root,root) %{_bindir}/*
+%{_datadir}/xsessions/%{name}.desktop
