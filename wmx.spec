@@ -1,5 +1,5 @@
-Summary:	another window manager
-Summary(pl):	jeszcze jeden menad¿er okien
+Summary:	Another window manager
+Summary(pl):	Jeszcze jeden zarz±dca okien
 Name:		wmx
 Version:	6
 Release:	1
@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %endif
 
 %description
-wmx is another window manager for X.  It is based on wm2 and provides
+wmx is another window manager for X. It is based on wm2 and provides
 a similarly unusual style of window decoration; but in place of wm2's
 minimal functionality, it offers many of the features of more
 conventional managers in the most simplistic implementations
@@ -30,10 +30,10 @@ imaginable.  wmx is, however, still barely configurable except by
 editing the source and recompiling the code.
 
 %description -l pl
-wmx jest jeszcze jednym menad¿erem okien dla X.  Oparty na kodzie wm2
+wmx jest jeszcze jednym zarz±dc± okien dla X. Oparty na kodzie wm2
 dostarcza podobnego niezwyk³ego stylu dekoracji okien; ale zamiast
 minimalnej funkcjonalno¶ci wm2, wmx oferuje wiele w³a¶ciwo¶ci bardziej
-konwencjonalnych menad¿erów okien w najbardziej uproszczonej
+konwencjonalnych zarz±dców okien w najbardziej uproszczonej
 implementacji. wmx nie da siê konfigurowaæ, chyba ¿e poprzez edycjê
 ¼róde³ i rekompilacjê.
 
