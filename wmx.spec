@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Window Managers
 Source0:	http://www.all-day-breakfast.com/%{name}-%{version}.tar.gz
+# Source0-md5:	d4dd5ed28b7aa103f462d4a024c7bb03
 Patch0:		%{name}-compile_fix.patch
 Patch1:		%{name}-config.patch
 BuildRequires:	XFree86-devel
