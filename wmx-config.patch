@@ -1,0 +1,11 @@
+--- wmx-6/Config.h.orig	Fri Nov  1 21:15:41 2002
++++ wmx-6/Config.h	Fri Nov  1 21:16:39 2002
+@@ -76,7 +76,7 @@
+ // What to run to get a new window (from the "New" menu option)
+ #define CONFIG_NEW_WINDOW_LABEL "New"
+ //#define CONFIG_NEW_WINDOW_COMMAND "xterm"
+-#define CONFIG_NEW_WINDOW_COMMAND "/home/chris/.wmx/terminal"
++#define CONFIG_NEW_WINDOW_COMMAND "/usr/X11R6/bin/xterm"
+ #define CONFIG_NEW_WINDOW_COMMAND_OPTIONS 0
+ // or, for example,
+ //#define CONFIG_NEW_WINDOW_COMMAND_OPTIONS "-ls","-sb","-sl","1024",0

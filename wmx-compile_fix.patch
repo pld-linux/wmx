@@ -1,0 +1,11 @@
+--- wmx-6/Menu.C.orig	Fri Nov  1 21:01:38 2002
++++ wmx-6/Menu.C	Fri Nov  1 21:04:05 2002
+@@ -621,7 +621,7 @@
+ 
+ 
+ CommandMenu::CommandMenu(WindowManager *manager, XEvent *e,
+-			 char* otherdir = NULL)
++			 char* otherdir)
+     : Menu(manager, e)
+ {
+     const char *home = getenv("HOME");
