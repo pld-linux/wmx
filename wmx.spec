@@ -11,7 +11,8 @@ Source1:	%{name}-xsession.desktop
 Patch0:		%{name}-compile_fix.patch
 Patch1:		%{name}-config.patch
 BuildRequires:	XFree86-devel
-BuildRequires:	gcc-c++
+BuildRequires:	autoconf
+BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sysconfdir	/etc/X11/%{name}
@@ -53,6 +54,7 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/xsessions}
 
 install %{name} $RPM_BUILD_ROOT%{_bindir}
 install %{SOURCE1} $RPM_BUILD_ROOT%{_datadir}/xsessions/%{name}.desktop
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
