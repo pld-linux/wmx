@@ -1,5 +1,5 @@
 Summary:	Another window manager
-Summary(pl):	Jeszcze jeden zarz±dca okien
+Summary(pl.UTF-8):   Jeszcze jeden zarzÄ…dca okien
 Name:		wmx
 Version:	6
 Release:	1
@@ -30,13 +30,13 @@ conventional managers in the most simplistic implementations
 imaginable.  wmx is, however, still barely configurable except by
 editing the source and recompiling the code.
 
-%description -l pl
-wmx jest jeszcze jednym zarz±dc± okien dla X. Oparty na kodzie wm2
-dostarcza podobnego niezwyk³ego stylu dekoracji okien; ale zamiast
-minimalnej funkcjonalno¶ci wm2, wmx oferuje wiele w³a¶ciwo¶ci bardziej
-konwencjonalnych zarz±dców okien w najbardziej uproszczonej
-implementacji. wmx nie da siê konfigurowaæ, chyba ¿e poprzez edycjê
-¼róde³ i rekompilacjê.
+%description -l pl.UTF-8
+wmx jest jeszcze jednym zarzÄ…dcÄ… okien dla X. Oparty na kodzie wm2
+dostarcza podobnego niezwykÅ‚ego stylu dekoracji okien; ale zamiast
+minimalnej funkcjonalnoÅ›ci wm2, wmx oferuje wiele wÅ‚aÅ›ciwoÅ›ci bardziej
+konwencjonalnych zarzÄ…dcÃ³w okien w najbardziej uproszczonej
+implementacji. wmx nie da siÄ™ konfigurowaÄ‡, chyba Å¼e poprzez edycjÄ™
+ÅºrÃ³deÅ‚ i rekompilacjÄ™.
 
 %prep
 %setup -q
