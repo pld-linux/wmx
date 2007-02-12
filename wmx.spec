@@ -1,5 +1,5 @@
 Summary:	Another window manager
-Summary(pl.UTF-8):   Jeszcze jeden zarządca okien
+Summary(pl.UTF-8):	Jeszcze jeden zarządca okien
 Name:		wmx
 Version:	6
 Release:	1
